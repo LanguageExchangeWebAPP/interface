@@ -1,0 +1,63 @@
+<html class="ui-mobile">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>LEGA</title>
+
+	<!--
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+		
+		-->
+
+	<link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css" />
+	<script src="jquery/jquery.min.js"></script>
+	<script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+	
+</head>
+<body>
+	
+	<div data-role="page" id="createNew" data-url="createNew" tabindex="0" class="ui-page ui-page-theme-a ui-page-active" style="min-height: 569px;">
+		<div data-role="header" role="banner" class="ui-header ui-bar-inherit">
+			<a href="#" data-icon="back" data-rel="back" title="Go back">Back</a>
+			<h1 class="ui-title" role="heading" aria-level="1">Create New Exchanges</h1>
+		</div><!-- /header -->
+
+		<div role="main">
+			<form action="home.html">
+				<ul data-role="listview" data-inset="true" data-divider-theme="a">
+					<li>
+						<label>Date:</label>
+						<input type="date" name="date">
+					</li>
+					<li>
+						<label>Time:</label>
+						<input type="time" name="time">
+					</li>
+					
+					<li>
+						<fieldset data-role="controlgroup" data-type="horizontal">
+							<legend>Language:</legend>
+							<input type="radio" name="radio-choice-h-2" id="radio-choice-h-2a" value="on" checked="checked">
+							<label for="radio-choice-h-2a">Japanese</label>
+							
+							<input type="radio" name="radio-choice-h-2" id="radio-choice-h-2b" value="off">
+							<label for="radio-choice-h-2b">English</label>
+						</fieldset>
+					
+					</li>
+					
+					<li>
+						<input type="submit" value="Create"> 
+					</li>
+						
+				</ul>
+			</form>
+		</div>
+
+
+	</div>
+
+</body>
+</html>

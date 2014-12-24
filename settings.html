@@ -1,0 +1,66 @@
+<html class="ui-mobile">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>LEGA</title>
+
+	<!--
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+		
+		-->
+
+	<link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css" />
+	<script src="jquery/jquery.min.js"></script>
+	<script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+	
+</head>
+<body>
+
+	
+	<div data-role="page" id="settings" data-url="settings" tabindex="0" class="ui-page ui-page-theme-a ui-page-active" style="min-height: 569px;">
+		
+		<div data-role="header" role="banner" class="ui-header ui-bar-inherit">
+			<a href="#" data-icon="back" data-rel="back" title="Go back">Back</a>
+
+			<h1 class="ui-title" role="heading" aria-level="1">Settings</h1>
+		</div><!-- /header -->
+
+		<div role="main" class="ui-content">
+			<form action="home.html">
+				<label for="text-basic">Username:</label>
+				<input type="text" name="text-basic" id="text-basic" value="">
+			
+				<label for="password">Password:</label>
+				<input type="password" name="password" id="password" value="" autocomplete="off">
+				
+				
+				<div class="ui-field-contain">
+						<label for="name2">Text Input:</label>
+						<div class="ui-input-text ui-body-inherit ui-corner-all ui-shadow-inset ui-input-has-clear"><input type="text" name="name2" id="name2" value="" data-clear-btn="true"><a href="#" tabindex="-1" aria-hidden="true" class="ui-input-clear ui-btn ui-icon-delete ui-btn-icon-notext ui-corner-all ui-input-clear-hidden" title="Clear text">Clear text</a></div>
+					</div>
+					<div class="ui-field-contain">
+						<label for="textarea2">Textarea:</label>
+						<textarea cols="40" rows="8" name="textarea2" id="textarea2" class="ui-input-text ui-shadow-inset ui-body-inherit ui-corner-all ui-textinput-autogrow" style="height: 51px;"></textarea>
+					</div>
+					<div class="ui-field-contain">
+						<label for="flip2">Flip switch:</label>
+						<div class="ui-flipswitch ui-shadow-inset ui-bar-inherit ui-corner-all"><a href="#" class="ui-flipswitch-on ui-btn ui-shadow ui-btn-inherit">On</a><span class="ui-flipswitch-off">Off</span><select name="flip2" id="flip2" data-role="flipswitch" class="ui-flipswitch-input" tabindex="-1">
+							<option value="off">Off</option>
+							<option value="on">On</option>
+						</select></div>
+					</div>
+					
+				
+			
+				<input type="submit" value="Save"> 
+			</form>
+
+		</div><!-- /content -->
+		
+	</div>
+
+
+</body>
+</html>
